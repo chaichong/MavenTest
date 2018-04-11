@@ -20,7 +20,7 @@ public class IndexController {
 
     @RequestMapping(value = "/index")
     public String toIndex(ModelAndView model){
-        return "index";
+        return "login";
     }
 
     @RequestMapping(value = "/login")
