@@ -1,5 +1,5 @@
 package cn.cc.entity;
-
+import java.lang.*;
 /**
  * Created by CC on 17/7/23.
  */
@@ -59,4 +59,6 @@ public class User {
     public void setPassword(String password) {
         this.password = password;
     }
+
+
 }
